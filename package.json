@@ -1,0 +1,22 @@
+{
+  "name": "g1-platform-testauto-interview",
+  "version": "1.0.0",
+  "description": "Interview project for G1 automated testers",
+  "repository": "https://github.com/QC-Gaming1/g1-platform-testauto-interview.git",
+  "author": "Gaming1 QC",
+  "license": "MIT",
+  "scripts": {
+    "e2e": "cucumber-js features/**/*.feature -c runnerConfiguration/cucumber.mjs"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "@cucumber/cucumber-expressions": "^16.1.2",
+    "@cucumber/pretty-formatter": "1.0.0",
+    "ts-node": "10.9.1",
+    "typescript": "4.7.4",
+    "playwright": "^1.33.0",
+    "@playwright/test": "^1.33.0",
+    "@cucumber/messages": "^21.0.0",
+    "node-fetch": "^3.3.1"
+  }
+}
